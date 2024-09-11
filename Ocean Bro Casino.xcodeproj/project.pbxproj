@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BFFB7EF2C8EE39500CE0F81 /* Ocean_Bro_CasinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB7EE2C8EE39500CE0F81 /* Ocean_Bro_CasinoApp.swift */; };
+		8BFFB7F12C8EE39500CE0F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB7F02C8EE39500CE0F81 /* ContentView.swift */; };
+		8BFFB7F32C8EE39900CE0F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFB7F22C8EE39900CE0F81 /* Assets.xcassets */; };
+		8BFFB7F62C8EE39900CE0F81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFFB7F52C8EE39900CE0F81 /* Preview Assets.xcassets */; };
+		8BFFB7FD2C8EE7D900CE0F81 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB7FC2C8EE7D800CE0F81 /* ButtonStyles.swift */; };
+		8BFFB7FF2C8EFAFC00CE0F81 /* Image+Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB7FE2C8EFAFC00CE0F81 /* Image+Icons.swift */; };
+		8BFFB8012C8F0A3200CE0F81 /* GamesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB8002C8F0A3200CE0F81 /* GamesListView.swift */; };
+		8BFFB8032C8F0A6400CE0F81 /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB8022C8F0A6400CE0F81 /* GameType.swift */; };
+		8BFFB8072C8F20DC00CE0F81 /* ThreeInRowGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB8062C8F20DC00CE0F81 /* ThreeInRowGameScene.swift */; };
+		8BFFB8092C8F211600CE0F81 /* ThreeInRowGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB8082C8F211600CE0F81 /* ThreeInRowGameView.swift */; };
+		8BFFB80B2C8F3FBE00CE0F81 /* GameDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB80A2C8F3FBE00CE0F81 /* GameDifficulty.swift */; };
+		8BFFB80F2C8FB3B900CE0F81 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB80E2C8FB3B900CE0F81 /* LeaderboardView.swift */; };
+		8BFFB8122C90440000CE0F81 /* FishEaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB8112C90440000CE0F81 /* FishEaterView.swift */; };
+		8BFFB8142C90441D00CE0F81 /* FishEaterScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB8132C90441D00CE0F81 /* FishEaterScene.swift */; };
+		8BFFB8162C90480500CE0F81 /* GamePauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB8152C90480500CE0F81 /* GamePauseView.swift */; };
+		8BFFB8182C904C0D00CE0F81 /* GameStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB8172C904C0D00CE0F81 /* GameStartView.swift */; };
+		8BFFB81A2C904CCF00CE0F81 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB8192C904CCF00CE0F81 /* SettingsView.swift */; };
+		8BFFB81D2C90635D00CE0F81 /* FindTreasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB81C2C90635D00CE0F81 /* FindTreasureView.swift */; };
+		8BFFB81F2C90680B00CE0F81 /* FindTreasureScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB81E2C90680B00CE0F81 /* FindTreasureScene.swift */; };
+		8BFFB8212C909FDB00CE0F81 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB8202C909FDB00CE0F81 /* AboutView.swift */; };
+		8BFFB8232C91A04F00CE0F81 /* AppFeedbackGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFB8222C91A04F00CE0F81 /* AppFeedbackGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BFFB7EB2C8EE39500CE0F81 /* Ocean Bro Casino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ocean Bro Casino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFFB7EE2C8EE39500CE0F81 /* Ocean_Bro_CasinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean_Bro_CasinoApp.swift; sourceTree = "<group>"; };
+		8BFFB7F02C8EE39500CE0F81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BFFB7F22C8EE39900CE0F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BFFB7F52C8EE39900CE0F81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BFFB7FC2C8EE7D800CE0F81 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		8BFFB7FE2C8EFAFC00CE0F81 /* Image+Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Icons.swift"; sourceTree = "<group>"; };
+		8BFFB8002C8F0A3200CE0F81 /* GamesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListView.swift; sourceTree = "<group>"; };
+		8BFFB8022C8F0A6400CE0F81 /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
+		8BFFB8062C8F20DC00CE0F81 /* ThreeInRowGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeInRowGameScene.swift; sourceTree = "<group>"; };
+		8BFFB8082C8F211600CE0F81 /* ThreeInRowGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeInRowGameView.swift; sourceTree = "<group>"; };
+		8BFFB80A2C8F3FBE00CE0F81 /* GameDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDifficulty.swift; sourceTree = "<group>"; };
+		8BFFB80E2C8FB3B900CE0F81 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		8BFFB8112C90440000CE0F81 /* FishEaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishEaterView.swift; sourceTree = "<group>"; };
+		8BFFB8132C90441D00CE0F81 /* FishEaterScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishEaterScene.swift; sourceTree = "<group>"; };
+		8BFFB8152C90480500CE0F81 /* GamePauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePauseView.swift; sourceTree = "<group>"; };
+		8BFFB8172C904C0D00CE0F81 /* GameStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStartView.swift; sourceTree = "<group>"; };
+		8BFFB8192C904CCF00CE0F81 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8BFFB81C2C90635D00CE0F81 /* FindTreasureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTreasureView.swift; sourceTree = "<group>"; };
+		8BFFB81E2C90680B00CE0F81 /* FindTreasureScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTreasureScene.swift; sourceTree = "<group>"; };
+		8BFFB8202C909FDB00CE0F81 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		8BFFB8222C91A04F00CE0F81 /* AppFeedbackGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeedbackGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BFFB7E82C8EE39500CE0F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BFFB7E22C8EE39500CE0F81 = {
+			isa = PBXGroup;
+			children = (
+				8BFFB7ED2C8EE39500CE0F81 /* Ocean Bro Casino */,
+				8BFFB7EC2C8EE39500CE0F81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BFFB7EC2C8EE39500CE0F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFB7EB2C8EE39500CE0F81 /* Ocean Bro Casino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BFFB7ED2C8EE39500CE0F81 /* Ocean Bro Casino */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFB8042C8F20CD00CE0F81 /* Games */,
+				8BFFB7EE2C8EE39500CE0F81 /* Ocean_Bro_CasinoApp.swift */,
+				8BFFB7F02C8EE39500CE0F81 /* ContentView.swift */,
+				8BFFB7F22C8EE39900CE0F81 /* Assets.xcassets */,
+				8BFFB7F42C8EE39900CE0F81 /* Preview Content */,
+				8BFFB7FC2C8EE7D800CE0F81 /* ButtonStyles.swift */,
+				8BFFB7FE2C8EFAFC00CE0F81 /* Image+Icons.swift */,
+				8BFFB8202C909FDB00CE0F81 /* AboutView.swift */,
+				8BFFB8222C91A04F00CE0F81 /* AppFeedbackGenerator.swift */,
+			);
+			path = "Ocean Bro Casino";
+			sourceTree = "<group>";
+		};
+		8BFFB7F42C8EE39900CE0F81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFB7F52C8EE39900CE0F81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BFFB8042C8F20CD00CE0F81 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFB81B2C905BD100CE0F81 /* FindTreasure */,
+				8BFFB8102C9043F200CE0F81 /* FishEater */,
+				8BFFB8052C8F20D100CE0F81 /* ThreeInRow */,
+				8BFFB80A2C8F3FBE00CE0F81 /* GameDifficulty.swift */,
+				8BFFB80E2C8FB3B900CE0F81 /* LeaderboardView.swift */,
+				8BFFB8002C8F0A3200CE0F81 /* GamesListView.swift */,
+				8BFFB8022C8F0A6400CE0F81 /* GameType.swift */,
+				8BFFB8152C90480500CE0F81 /* GamePauseView.swift */,
+				8BFFB8172C904C0D00CE0F81 /* GameStartView.swift */,
+				8BFFB8192C904CCF00CE0F81 /* SettingsView.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		8BFFB8052C8F20D100CE0F81 /* ThreeInRow */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFB8062C8F20DC00CE0F81 /* ThreeInRowGameScene.swift */,
+				8BFFB8082C8F211600CE0F81 /* ThreeInRowGameView.swift */,
+			);
+			path = ThreeInRow;
+			sourceTree = "<group>";
+		};
+		8BFFB8102C9043F200CE0F81 /* FishEater */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFB8112C90440000CE0F81 /* FishEaterView.swift */,
+				8BFFB8132C90441D00CE0F81 /* FishEaterScene.swift */,
+			);
+			path = FishEater;
+			sourceTree = "<group>";
+		};
+		8BFFB81B2C905BD100CE0F81 /* FindTreasure */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFB81C2C90635D00CE0F81 /* FindTreasureView.swift */,
+				8BFFB81E2C90680B00CE0F81 /* FindTreasureScene.swift */,
+			);
+			path = FindTreasure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BFFB7EA2C8EE39500CE0F81 /* Ocean Bro Casino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFFB7F92C8EE39900CE0F81 /* Build configuration list for PBXNativeTarget "Ocean Bro Casino" */;
+			buildPhases = (
+				8BFFB7E72C8EE39500CE0F81 /* Sources */,
+				8BFFB7E82C8EE39500CE0F81 /* Frameworks */,
+				8BFFB7E92C8EE39500CE0F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ocean Bro Casino";
+			productName = "Ocean Bro Casino";
+			productReference = 8BFFB7EB2C8EE39500CE0F81 /* Ocean Bro Casino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BFFB7E32C8EE39500CE0F81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8BFFB7EA2C8EE39500CE0F81 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8BFFB7E62C8EE39500CE0F81 /* Build configuration list for PBXProject "Ocean Bro Casino" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BFFB7E22C8EE39500CE0F81;
+			productRefGroup = 8BFFB7EC2C8EE39500CE0F81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BFFB7EA2C8EE39500CE0F81 /* Ocean Bro Casino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BFFB7E92C8EE39500CE0F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFFB7F62C8EE39900CE0F81 /* Preview Assets.xcassets in Resources */,
+				8BFFB7F32C8EE39900CE0F81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BFFB7E72C8EE39500CE0F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFFB81A2C904CCF00CE0F81 /* SettingsView.swift in Sources */,
+				8BFFB7F12C8EE39500CE0F81 /* ContentView.swift in Sources */,
+				8BFFB8182C904C0D00CE0F81 /* GameStartView.swift in Sources */,
+				8BFFB8072C8F20DC00CE0F81 /* ThreeInRowGameScene.swift in Sources */,
+				8BFFB8212C909FDB00CE0F81 /* AboutView.swift in Sources */,
+				8BFFB7FD2C8EE7D900CE0F81 /* ButtonStyles.swift in Sources */,
+				8BFFB8012C8F0A3200CE0F81 /* GamesListView.swift in Sources */,
+				8BFFB8232C91A04F00CE0F81 /* AppFeedbackGenerator.swift in Sources */,
+				8BFFB8142C90441D00CE0F81 /* FishEaterScene.swift in Sources */,
+				8BFFB8122C90440000CE0F81 /* FishEaterView.swift in Sources */,
+				8BFFB81D2C90635D00CE0F81 /* FindTreasureView.swift in Sources */,
+				8BFFB8162C90480500CE0F81 /* GamePauseView.swift in Sources */,
+				8BFFB80F2C8FB3B900CE0F81 /* LeaderboardView.swift in Sources */,
+				8BFFB7FF2C8EFAFC00CE0F81 /* Image+Icons.swift in Sources */,
+				8BFFB81F2C90680B00CE0F81 /* FindTreasureScene.swift in Sources */,
+				8BFFB7EF2C8EE39500CE0F81 /* Ocean_Bro_CasinoApp.swift in Sources */,
+				8BFFB8032C8F0A6400CE0F81 /* GameType.swift in Sources */,
+				8BFFB80B2C8F3FBE00CE0F81 /* GameDifficulty.swift in Sources */,
+				8BFFB8092C8F211600CE0F81 /* ThreeInRowGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BFFB7F72C8EE39900CE0F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BFFB7F82C8EE39900CE0F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BFFB7FA2C8EE39900CE0F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ocean Bro Casino/Preview Content\"";
+				DEVELOPMENT_TEAM = 8544L4PRJA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladislavmanoilo.Ocean-Bro-Casino";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BFFB7FB2C8EE39900CE0F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ocean Bro Casino/Preview Content\"";
+				DEVELOPMENT_TEAM = 8544L4PRJA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladislavmanoilo.Ocean-Bro-Casino";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BFFB7E62C8EE39500CE0F81 /* Build configuration list for PBXProject "Ocean Bro Casino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFFB7F72C8EE39900CE0F81 /* Debug */,
+				8BFFB7F82C8EE39900CE0F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFFB7F92C8EE39900CE0F81 /* Build configuration list for PBXNativeTarget "Ocean Bro Casino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFFB7FA2C8EE39900CE0F81 /* Debug */,
+				8BFFB7FB2C8EE39900CE0F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BFFB7E32C8EE39500CE0F81 /* Project object */;
+}
